@@ -13,16 +13,18 @@ public class Student {
 
         // Reference type: string
         // String MUST use double quotes:" "
-        String studentName = "Edmond Luu";
+        String studentFirstName = "Edmond";
+        String studentLastName = "Luu";
 
 
 
-        
+
         System.out.println(studentAge);
         System.out.println(studentGPA);
         System.out.println(studentFirstInitial);
         System.out.println(studentLastInitial);
         System.out.println(hasPerfectAttendance);
-        System.out.println(studentName);
+        System.out.println(studentFirstName);
+        System.out.println(studentLastName);
     }
 }
