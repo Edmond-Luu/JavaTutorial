@@ -3,6 +3,7 @@ public class Student {
         int studentAge = 20;
         double studentGPA = 3.45;
         char studentFirstInitial = 'E';
+        // char (single letters) MUST use single quotes: ''
         char studentLastInitial = 'L';
         boolean hasPerfectAttendance = true;
 
