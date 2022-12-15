@@ -8,10 +8,16 @@ public class Student {
         char studentLastInitial = 'L';
         boolean hasPerfectAttendance = true;
 
+
+
+
         // Reference type: string
         // String MUST use double quotes:" "
         String studentName = "Edmond Luu";
 
+
+
+        
         System.out.println(studentAge);
         System.out.println(studentGPA);
         System.out.println(studentFirstInitial);
