@@ -1,5 +1,6 @@
 public class Student {
     public static void main(String[] args) {
+        // Primitive types: int, boolean, double, char
         int studentAge = 20;
         double studentGPA = 3.45;
         char studentFirstInitial = 'E';
