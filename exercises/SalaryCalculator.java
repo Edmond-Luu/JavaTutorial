@@ -6,6 +6,6 @@ public class SalaryCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateSalary(40, 30, 1));
+        System.out.println(calculateSalary(40, 30, 10));
     }
 }
