@@ -1,13 +1,21 @@
 public class FunctionParameters {
     // Like in JS, put the parameters in the function definition's parenthesis.
-    public static void calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
+    // If you want a function to return a value, change void (return nothing) to the
+    // type.
+
+    public static void sampleFunction(){
+        // THIS FUNCTION RETURNS NOTHING BECAUSE IT HAS VOID AT THE TOP.
+    }
+
+    public static double calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
         double tip = tipRate * listedMealPrice;
-        double tax = tipRate * listedMealPrice;
+        double tax = taxRate * listedMealPrice;
         double result = listedMealPrice + tip + tax;
-        System.out.println("Your total meal price is $" + result);
+        return result;
     }
 
     public static void main(String[] args) {
-        calculateTotalMealPrice(15, 0.2, 0.08);
+        double groupTotalMealPrice = calculateTotalMealPrice(100, 0.2, 0.08);
+        System.out.println(groupTotalMealPrice / 5);
     }
 }
