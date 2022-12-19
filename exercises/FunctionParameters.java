@@ -4,10 +4,10 @@ public class FunctionParameters {
         double tip = tipRate * listedMealPrice;
         double tax = tipRate * listedMealPrice;
         double result = listedMealPrice + tip + tax;
-        System.out.println("Your total meal price is " + result);
+        System.out.println("Your total meal price is $" + result);
     }
 
     public static void main(String[] args) {
-
+        calculateTotalMealPrice(15, 0.2, 0.08);
     }
 }
