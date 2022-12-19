@@ -16,13 +16,12 @@ public class Debug {
 
         System.out.println("Please input the height of the triangle (in centimetres)");
         double height = input.nextDouble();
-        while(height <= 0) {
+        while (height <= 0) {
             System.out.println("That's invalid. Please input the height of the triangle (in centimetres)");
             base = input.nextDouble();
 
-
-            double area = (base * height) / 2;
-            System.out.println("The area is " + height);
         }
+        double area = (base * height) / 2;
+        System.out.println("The area is " + area);
     }
 }
