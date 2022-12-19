@@ -7,7 +7,7 @@ public class Debug {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please input the base of the triangle (in centimetres)");
-        double base = input.nextDouble()
+        double base = input.nextDouble();
 
         while (base <= 0) {
             System.out.println("That's invalid. Please input the base of the triangle (in centimetres)");
