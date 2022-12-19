@@ -1,7 +1,6 @@
 public class FunctionParameters {
     // Like in JS, put the parameters in the function definition's parenthesis.
-    // If you want a function to return a value, change void (return nothing) to the
-    // type.
+    // If you want a function to return a value, change void (return nothing) to the type.
 
     public static void sampleFunction(){
         // THIS FUNCTION RETURNS NOTHING BECAUSE IT HAS VOID AT THE TOP.
