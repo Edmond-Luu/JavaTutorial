@@ -9,5 +9,11 @@ public class TriangleClassMain {
 
         double triangleBArea = triangleB.findArea();
         System.out.println(triangleBArea);
+
+        System.out.println(triangleA.sideLenThree);
+        System.out.println(triangleB.base);
+
+        // Accessing a STATIC (non-changing) variable.
+        System.out.println(Triangle.numOfSides);
     }
 }

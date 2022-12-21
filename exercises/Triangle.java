@@ -1,4 +1,7 @@
 public class Triangle {
+
+    static int numOfSides = 3;
+    
     double base;
     double height;
     double sideLenOne;
@@ -15,7 +18,8 @@ public class Triangle {
         this.sideLenThree = sideLenThree;
     }
 
-    // Notice that the word "static" is NOT used because this is NOT a static function because it relies on instances of the class.
+    // Notice that the word "static" is NOT used because this is NOT a static
+    // function because it relies on instances of the class.
     public double findArea() {
         return (this.base * this.height) / 2;
     }
