@@ -1,7 +1,9 @@
 public class Triangle {
 
+    // Static class methods do NOT need an instance in order to be used; we just use
+    // the class name.
     static int numOfSides = 3;
-    
+
     double base;
     double height;
     double sideLenOne;
