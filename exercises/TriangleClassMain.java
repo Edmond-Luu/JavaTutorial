@@ -6,5 +6,8 @@ public class TriangleClassMain {
 
         double triangleAArea = triangleA.findArea();
         System.out.println(triangleAArea);
+
+        double triangleBArea = triangleB.findArea();
+        System.out.println(triangleBArea);
     }
 }
